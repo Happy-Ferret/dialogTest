@@ -10,7 +10,7 @@ var window = openDialog({
         resizable: true,
         scrollbars: true
     }).join() + ',width=850,height=650',
-    name: "My window name",
+    name: "My window name " + Math.random().toString(36).substring(7),
     url:"chrome://browser/content/emoji/main.xul"
     // parent: 
     // args: 
