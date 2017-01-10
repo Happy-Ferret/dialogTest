@@ -8,7 +8,7 @@
 
   @font-face {
   font-family: 'Emoji One Color';
-  src: url('../ttf/EmojiOneColor-SVGinOT.ttf');
+  src: url('ttf/EmojiOneColor-SVGinOT.ttf');
  }
  
  #emojiBox {
