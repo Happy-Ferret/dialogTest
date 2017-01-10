@@ -32,6 +32,7 @@
 <hbox>
 <label flex="0" class="frameButton" onclick="closeModeless('optionspane');" value=""/>
  <label flex="0" class="frameButton" onclick="closeApp();" value=""/>
+  <label flex="0" id="titleText" class="frameButton" value="titlebar"/>
 </hbox>
 <box id="emojiContainer">
 <hbox id="emojiBox" onmousedown='return false;'/>
