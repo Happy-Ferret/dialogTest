@@ -1,0 +1,15 @@
+{
+  "title": "dialogTest",
+  "name": "dialogtest",
+  "version": "0.0.1",
+  "description": "XUL dialog testcase",
+  "main": "index.js",
+  "author": "Mark Bauermeister",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
