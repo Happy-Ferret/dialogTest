@@ -37,7 +37,7 @@ function openModeless(ID) {
   
   //Opening the panel with a slight delay, to make sure the underlying window is properly set up before.
   setTimeout(function(){modeless.openPopupAtScreen(windowX, windowY / 100, true);}, 100);
-  document.getElementById("titleText").value = window.name;
+  document.getElementById("titleText").value = window.name.slice(0, -6);
 }
 
 function closeModeless(ID) {
