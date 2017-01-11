@@ -21,7 +21,7 @@ function restore(ID) {
   // Restore panel.
   if (window.windowState === 3) {
     openModeless(ID);
-    $("#" + ID).removeClass("hoverOut");
+    modeless.classList.remove("hoverOut");
   }
   // If window was minimised, hide popup so it can be restored later on.
   else if (window.windowState === 2)
@@ -44,7 +44,7 @@ function openModeless(ID) {
 function closeModeless(ID) {
   var modeless = document.getElementById(ID);
   
-  $("#" + ID).addClass("hoverOut");
+  modeless.classList.add("hoverOut");
   
   //Timeout in order to show closing animation.
   setTimeout(function(){
